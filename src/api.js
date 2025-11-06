@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000"; // FastAPI backend
+const API_BASE = "https://my-animrec-backend.azurewebsites.net"; // FastAPI backend
 
 export async function getTopAnime() {
   const res = await fetch(`${API_BASE}/`);
