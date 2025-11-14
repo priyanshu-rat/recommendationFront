@@ -1,4 +1,4 @@
-const API_BASE = "https://my-animrec-backend.azurewebsites.net"; // FastAPI backend
+const API_BASE = "https://otakusensai.azurewebsites.net"; // FastAPI backend
 
 export async function getTopAnime() {
   const res = await fetch(`${API_BASE}/`);
